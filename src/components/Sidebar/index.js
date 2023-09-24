@@ -15,6 +15,7 @@ const Sidebar = () => {
             <img src={mylogo} alt='logo'/>
             <img className='sub-logo' src={mynamelogo} alt='saskara'/>
         </Link>
+        <div className='div-1'>
         <nav>
             <NavLink exact="true" activecclassname="active" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
@@ -26,7 +27,10 @@ const Sidebar = () => {
                 <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
             </NavLink>
         </nav>
+        </div>
 
+
+        <div className='div-2'>
         <ul>
             <li>
                 <a target='_blank' rel='noreferrer' href='https://www.linkedin.com/in/saskaraputra/'>
@@ -39,6 +43,8 @@ const Sidebar = () => {
                 </a>
             </li>
         </ul>
+
+        </div>
     </div>
     )
 }
